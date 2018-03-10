@@ -1,0 +1,47 @@
+{
+  "name": "peanuts",
+  "version": "2.0.0",
+  "description": "A simple (CLI) tool that automatically trades cryptocurrencies based on a defined threshold",
+  "author": {
+    "name": "Thomas Rasshofer",
+    "email": "hello@thomasrasshofer.com",
+    "url": "http://thomasrasshofer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasshofer/peanuts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasshofer/peanuts/issues"
+  },
+  "main": "peanuts.js",
+  "keywords": [
+    "trading",
+    "cli"
+  ],
+  "scripts": {
+    "test": "eslint peanuts.js"
+  },
+  "dependencies": {
+    "and": "0.0.3",
+    "ccxt": "^1.11.62",
+    "leprechaun": "0.0.2",
+    "moment": "^2.21.0",
+    "nconf": "^0.10.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "round-to": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "lodash.template": "^4.4.0",
+    "markdown-table": "^1.1.1"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "peanuts": "peanuts.js"
+  }
+}
